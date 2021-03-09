@@ -1,0 +1,3 @@
+#!/bin/bash
+export CLASSPATH=/home/avagyan/bochka/EicBochka/build/libs/EicBochka-all-1.0-SNAPSHOT.jar
+exec java org.jlab.harut.YParser "$@"
